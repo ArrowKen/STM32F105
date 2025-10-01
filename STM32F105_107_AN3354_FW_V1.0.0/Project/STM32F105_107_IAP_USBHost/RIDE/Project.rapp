@@ -1,0 +1,220 @@
+
+<ApplicationBuild Header="Project" Extern=".\Project.rapp" Path=".\Project.rapp" OutputFile=".\STM3210C-EVAL\Project.elf" sate="98" Config="STM3210C-EVAL" AsyncBuild="" >
+	<Configs>
+		<Config Header="STM3210C-EVAL" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+	</Configs>
+	<Group Header="CMSIS" Marker="-1" OutputFile="" sate="0" AsyncBuild="" >
+		<NodeC Path="..\..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c" Header="core_cm3.c" Marker="-1" OutputFile=".\STM3210C-EVAL\core_cm3.o" sate="0" AsyncBuild="" />
+		<NodeC Path="..\src\system_stm32f10x.c" Header="system_stm32f10x.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\system_stm32f10x.o" sate="0" />
+																																																																																																																																																																																																																																												
+	</Group>
+	<Group Header="User" Marker="-1" OutputFile="" sate="96" AsyncBuild="" >
+		<NodeC Path="..\src\command.c" Header="command.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\command.o" sate="0" />
+		<NodeC Path="..\src\flash_layer.c" Header="flash_layer.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\flash_layer.o" sate="0" />
+		<NodeC Path="..\src\main.c" Header="main.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\main.o" sate="0" />
+		<NodeC Path="..\src\stm32f10x_it.c" Header="stm32f10x_it.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_it.o" sate="0" />
+		<NodeC Path="..\src\usb_bsp.c" Header="usb_bsp.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usb_bsp.o" sate="0" />
+		<NodeC Path="..\src\usbh_usr.c" Header="usbh_usr.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_usr.o" sate="0" />
+																																																																																																																																																																																																																																							
+	</Group>
+	<Group Header="STM32_EVAL" Marker="-1" OutputFile="" sate="0" AsyncBuild="" >
+		<NodeC Path="..\..\..\Utilities\STM32_EVAL\stm32_eval.c" Header="stm32_eval.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32_eval.o" sate="0" AsyncBuild="" >
+			<Options/>
+																																																																																					
+		</NodeC>
+		<NodeC Path="..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL\stm3210c_eval_lcd.c" Header="stm3210c_eval_lcd.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm3210c_eval_lcd.o" sate="0" >
+			<Options/>
+					
+		</NodeC>
+		<NodeC Path="..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL\stm3210c_eval_ioe.c" Header="stm3210c_eval_ioe.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm3210c_eval_ioe.o" sate="0" >
+			<Options/>
+					
+		</NodeC>
+																																																																																																																																																																								
+	</Group>
+	<Group Header="Ride" Marker="-1" OutputFile="" sate="96" AsyncBuild="" >
+		<NodeASM Path="..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\gcc_ride7\startup_stm32f10x_cl.s" Header="startup_stm32f10x_cl.s" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\startup_stm32f10x_cl.o" sate="0" />
+												
+	</Group>
+	<Group Header="StdPeriph_Driver" Marker="-1" AsyncBuild="" OutputFile="" sate="0" >
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" Header="stm32f10x_usart.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_usart.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" Header="misc.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\misc.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" Header="stm32f10x_dma.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_dma.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" Header="stm32f10x_exti.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_exti.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" Header="stm32f10x_flash.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_flash.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" Header="stm32f10x_gpio.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_gpio.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" Header="stm32f10x_i2c.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_i2c.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" Header="stm32f10x_rcc.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_rcc.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" Header="stm32f10x_spi.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_spi.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" Header="stm32f10x_tim.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\stm32f10x_tim.o" sate="0" />
+			
+	</Group>
+	<Group Header="EFSL" Marker="-1" AsyncBuild="" OutputFile="" sate="0" >
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\ui.c" Header="ui.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\ui.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\dir.c" Header="dir.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\dir.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\disc.c" Header="disc.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\disc.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\efs.c" Header="efs.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\efs.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\extract.c" Header="extract.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\extract.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\fat.c" Header="fat.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\fat.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\file.c" Header="file.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\file.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\fs.c" Header="fs.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\fs.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\ioman.c" Header="ioman.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\ioman.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\ls.c" Header="ls.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\ls.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\mkfs.c" Header="mkfs.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\mkfs.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\partition.c" Header="partition.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\partition.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\plibc.c" Header="plibc.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\plibc.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\Third_Party\efsl\src\time.c" Header="time.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\time.o" sate="0" />
+			
+	</Group>
+	<Group Header="USB_Host" Marker="-1" AsyncBuild="" OutputFile="" sate="96" >
+		<Group Header="Class" Marker="-1" AsyncBuild="" OutputFile="" sate="96" >
+			<Group Header="MSC" Marker="-1" AsyncBuild="" OutputFile="" sate="96" >
+				<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\src\usbh_msc_scsi.c" Header="usbh_msc_scsi.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_msc_scsi.o" sate="0" />
+				<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\src\usbh_msc_bot.c" Header="usbh_msc_bot.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_msc_bot.o" sate="0" />
+				<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\src\usbh_msc_core.c" Header="usbh_msc_core.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_msc_core.o" sate="0" />
+				<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\src\usbh_msc_fs_interface.c" Header="usbh_msc_fs_interface.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_msc_fs_interface.o" sate="0" />
+							
+			</Group>
+					
+		</Group>
+		<Group Header="Core" Marker="-1" AsyncBuild="" OutputFile="" sate="96" >
+			<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Library\Core\src\usbh_stdreq.c" Header="usbh_stdreq.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_stdreq.o" sate="0" />
+			<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Library\Core\src\usbh_core.c" Header="usbh_core.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_core.o" sate="0" />
+			<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Library\Core\src\usbh_hcs.c" Header="usbh_hcs.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_hcs.o" sate="0" />
+			<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Library\Core\src\usbh_ioreq.c" Header="usbh_ioreq.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usbh_ioreq.o" sate="0" />
+					
+		</Group>
+		<Group Header="Driver" Marker="-1" AsyncBuild="" OutputFile="" sate="96" >
+			<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Driver\src\usb_hcd_int.c" Header="usb_hcd_int.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usb_hcd_int.o" sate="0" />
+			<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Driver\src\usb_core.c" Header="usb_core.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usb_core.o" sate="0" />
+			<NodeC Path="..\..\..\Libraries\STM32_USB_HOST_Driver\src\usb_hcd.c" Header="usb_hcd.c" Marker="-1" AsyncBuild="" OutputFile=".\STM3210C-EVAL\usb_hcd.o" sate="0" />
+					
+		</Group>
+			
+	</Group>
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="IncDir" Value="..;..\..\library\inc" Removable="1" />
+					<Property Header="OutDir" Value="$(ApplicationDir)\obj" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\lst" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103VBT6" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\\GNU.config" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="VECT_TAB_FLASH" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
+			</Set>
+			<Set Header="LD" >
+				<Section Header="LIB" >
+					<Property Header="STLIB" Value="0" Removable="1" />
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="File" Value=".\STM32F103_128K_20K_DEF.ld" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														
+			</Set>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+		</Config>
+		<Config Header="STM3210C-EVAL" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="$(ApplicationDir)\STM3210C-EVAL" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\STM3210C-EVAL" Removable="1" />
+					<Property Header="IncDir" Value="..\inc;..\..\..\Libraries\CMSIS\CM3\CoreSupport;..\..\..\Utilities\STM32_EVAL;..\..\..\Utilities\STM32_EVAL\Common;..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL;..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\..\Utilities\Third_Party\efsl\inc;..\..\..\Libraries\STM32_USB_HOST_Library\Core\inc;..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc;..\..\..\Libraries\STM32_USB_HOST_Library\Class\HID\inc;..\..\..\Libraries\STM32_USB_HOST_Driver\inc;..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F107VCT6" />
+																
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\GNU.config" />
+																									
+				</Section>
+												
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="USE_STDPERIPH_DRIVER;USE_STM3210C_EVAL;STM32F10X_CL" Removable="1" />
+																
+				</Section>
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+					<Property Header="FUNCSECTIONS" Value="-ffunction-sections" Removable="1" />
+																
+				</Section>
+				<Section Header="WARNINGS" >
+					<Property Header="NOWARNINGS" Value="" Removable="1" />
+																																																																						
+				</Section>
+				<Section Header="More" >
+					<Property Header="More" Value="-fdata-sections" />
+																
+				</Section>
+												
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+																																		
+				</Section>
+				<Section Header="LIB" >
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+					<Property Header="PRINTFTYPE" Value="0" Removable="1" />
+																
+				</Section>
+				<Section Header="More" >
+					<Property Header="More" Value="" />
+																
+				</Section>
+				<Section Header="Linker" >
+					<Property Header="GC_SECTIONS" Value="-Wl,-static -Wl,--gc-sections" Removable="1" />
+																
+				</Section>
+												
+			</Set>
+			<Set Header="RLINK_CORTEX" >
+				<Section Header="Advanced" >
+					<Property Header="Crystal" Value="25.000" />
+																																											
+				</Section>
+																																	
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>
